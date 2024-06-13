@@ -1,8 +1,6 @@
 # atomic-kde &nbsp; [![build-ublue](https://github.com/crms1496/atomic-kde/actions/workflows/build.yml/badge.svg)](https://github.com/crms1496/atomic-kde/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+This modifies Universal Blue's Kinoite image from https://github.com/ublue-os/main for my personal use.
 
 ## Installation
 
