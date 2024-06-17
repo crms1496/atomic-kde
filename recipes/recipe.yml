@@ -39,6 +39,7 @@ modules:
       - gamemode
       - goverlay
       - mangohud
+      - powertop
       - protontricks
       - steam
       - vkBasalt
