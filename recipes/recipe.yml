@@ -33,7 +33,6 @@ modules:
       - mosh
       - podman-compose
       - tailscale
-      - virt-manager
       - keyd
       - ibm-plex-fonts-all
       - adw-gtk3-theme
