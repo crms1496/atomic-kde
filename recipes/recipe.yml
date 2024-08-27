@@ -40,6 +40,7 @@ modules:
       - powertop
       - protontricks
       - steam
+      - virt-manager
       - vkBasalt
       - waydroid
     remove:
