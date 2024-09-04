@@ -1,0 +1,19 @@
+name: clean-old-packages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup-packages:
+    runs-on: ubuntu-latest
+    permissions:
+        packages: write
+    steps:
+        uses: actions/delete-package-versions@v5
+        with: 
+          package-name: 'atomic-kde'
+          package-type: 'container'
+          min-versions-to-keep: 14
