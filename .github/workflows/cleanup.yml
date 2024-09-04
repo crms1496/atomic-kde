@@ -12,6 +12,7 @@ jobs:
     permissions:
         packages: write
     steps:
+      - name: Clean up old packages
         uses: actions/delete-package-versions@v5
         with: 
           package-name: 'atomic-kde'
