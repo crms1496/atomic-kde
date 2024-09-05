@@ -1,4 +1,4 @@
-name: clean-old-packages
+name: Delete old images
 
 on:
   workflow_dispatch:
