@@ -25,6 +25,7 @@ modules:
       # - micro
       # - starship
       - byobu
+      - corectrl
       - duperemove
       - fish
       - mosh
