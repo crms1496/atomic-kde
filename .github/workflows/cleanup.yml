@@ -17,4 +17,4 @@ jobs:
         with: 
           package-name: 'atomic-kde'
           package-type: 'container'
-          min-versions-to-keep: 14
+          min-versions-to-keep: 50
