@@ -41,6 +41,7 @@ modules:
       - powertop
       - protontricks
       - steam
+      - syncthing
       - virt-manager
       - vkBasalt
       - waydroid
