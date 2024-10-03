@@ -44,6 +44,7 @@ modules:
       - mangohud
       - powertop
       - protontricks
+      - rmlint
       - steam
       - syncthing
       - virt-manager
