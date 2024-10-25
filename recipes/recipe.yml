@@ -40,16 +40,10 @@ modules:
       - ibm-plex-fonts-all
       - adw-gtk3-theme
       - bubblejail
-      - gamemode
-      - goverlay
-      - mangohud
       - powertop
-      - protontricks
       - rmlint
-      - steam
       - syncthing
       - virt-manager
-      - vkBasalt
       - waydroid
     remove:
       # example: removing firefox (in favor of the flatpak)
