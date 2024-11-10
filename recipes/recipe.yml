@@ -29,20 +29,22 @@ modules:
     install:
       # - micro
       # - starship
+      - adw-gtk3-theme
+      - bubblejail
       - byobu
       - corectrl
       - duperemove
       - fish
-      - mosh
-      - podman-compose
-      - tailscale
-      - keyd
+      - gamescope
       - ibm-plex-fonts-all
-      - adw-gtk3-theme
-      - bubblejail
+      - keyd
+      - mosh
+      - piper
+      - podman-compose
       - powertop
       - rmlint
       - syncthing
+      - tailscale
       - virt-manager
       - waydroid
     remove:
