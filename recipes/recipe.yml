@@ -25,7 +25,7 @@ modules:
           - https://negativo17.org/repos/fedora-steam.repo
       copr:
         - secureblue/packages
-        - alternatived/keyd
+        - alternateved/keyd
     install:
       packages:
         - adw-gtk3-theme
