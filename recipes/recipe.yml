@@ -19,29 +19,33 @@ modules:
 
   - type: dnf
     repos:
-      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-      - https://copr.fedorainfracloud.org/coprs/secureblue/packages/repo/fedora-%OS_VERSION%/secureblue-packages-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
-      - https://negativo17.org/repos/fedora-steam.repo
+      files:
+        add:
+          - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+          - https://negativo17.org/repos/fedora-steam.repo
+      copr:
+        - secureblue/packages
+        - alternatived/keyd
     install:
-      - adw-gtk3-theme
-      - bubblejail
-      - byobu
-      - corectrl
-      - duperemove
-      - fish
-      - gamescope
-      - ibm-plex-fonts-all
-      - keyd
-      - mosh
-      - piper
-      - podman-compose
-      - powertop
-      - rmlint
-      - syncthing
-      - tailscale
-      - virt-manager
-      - waydroid
+      packages:
+        - adw-gtk3-theme
+        - bubblejail
+        - byobu
+        - corectrl
+        - duperemove
+        - fish
+        - gamescope
+        - ibm-plex-fonts-all
+        - keyd
+        - mosh
+        - piper
+        - podman-compose
+        - powertop
+        - rmlint
+        - syncthing
+        - tailscale
+        - virt-manager
+        - waydroid
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
