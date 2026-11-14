@@ -28,6 +28,8 @@ jobs:
           # !! Add your recipes here
           - recipe.yml
     steps:
+      - name: Use classic sudo (Ubuntu 26.04 sudo-rs drops -E)
+        run: if [ -x /usr/bin/sudo.ws ]; then sudo update-alternatives --set sudo /usr/bin/sudo.ws; fi
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
         uses: blue-build/github-action@v1.14
